@@ -5,7 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@std/esm": "^0.25.2",
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "sinon": "^4.4.6"
   },
   "scripts": {
     "test": "ava"
@@ -18,5 +19,6 @@
       "@std/esm"
     ]
   },
-  "@std/esm": "js"
+  "@std/esm": "js",
+  "dependencies": {}
 }
