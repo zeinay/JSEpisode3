@@ -1,0 +1,22 @@
+{
+  "name": "JSEpisode1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@std/esm": "^0.25.2",
+    "ava": "^0.25.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "*.spec.js"
+    ],
+    "require": [
+      "@std/esm"
+    ]
+  },
+  "@std/esm": "js"
+}
