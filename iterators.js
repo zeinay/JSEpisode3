@@ -10,17 +10,17 @@ const logger = function(array) {
 
 
 /*************************************
-* toCelcius(temperatures)
+* toCelsius(temperatures)
 *
 * - Accepts an array of temperatures
 *   in degrees Fahrenheit
 * - Returns an array of temperatures
-*   in degrees Celcius
+*   in degrees Celsius
 *
 * The conversion is:
 *   C = (F - 32) * (5/9)
 ************************************/
-const toCelcius = function(temperatures) {
+const toCelsius = function(temperatures) {
   // Your code here
 }
 
@@ -47,7 +47,7 @@ const hottestDays = function(temperatures, threshhold) {
 *   IN DEGREED FAHRENHEINT
 * - Logs temperatures that exceed the
 *   threshhold to the console
-*   IN DEGREES CELCIUS
+*   IN DEGREES Celsius
 *
 * hint: you can combine
 *       all previous functions
@@ -57,4 +57,4 @@ const logHottestDays = function(temperatures, threshhold) {
 }
 
 
-export {logger, toCelcius, hottestDays, logHottestDays}
+export {logger, toCelsius, hottestDays, logHottestDays}

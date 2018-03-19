@@ -8,7 +8,7 @@
 
 import test from 'ava';
 import sinon from 'sinon';
-import {logger, toCelcius, hottestDays, logHottestDays} from './iterators'
+import {logger, toCelsius, hottestDays, logHottestDays} from './iterators'
 
 
 
@@ -30,20 +30,20 @@ test('logger() - should use .forEach', t => {
 
 
 
-test('toCelcius() - should convert temperatures from C to F', t => {
+test('toCelsius() - should convert temperatures from C to F', t => {
   let c = [0, 100, -40, 50, 12.5];
   let f = [32, 212, -40, 122, 54.5];
-  let results = toCelcius(f);
+  let results = toCelsius(f);
 
   t.deepEqual(results, c,
-    `Expected toCelcius(${JSON.stringify(f)})
+    `Expected toCelsius(${JSON.stringify(f)})
     to be ${JSON.stringify(c)}.
     Got ${JSON.stringify(results)} instead`);
 });
 
-test('toCelcius() - should use .map', t => {
+test('toCelsius() - should use .map', t => {
   sinon.spy(Array.prototype, 'map');
-  toCelcius([1,2,3,4,5]);
+  toCelsius([1,2,3,4,5]);
   t.true(Array.prototype.map.called, "You didn't use .map");
   Array.prototype.map.restore();
 });
@@ -87,7 +87,7 @@ test(
 });
 
 test(
-  'logHottestDays() - should log temperatures in Celcius',
+  'logHottestDays() - should log temperatures in Celsius',
   t => {
     let temperatures = [32];
     let threshhold = 30;
