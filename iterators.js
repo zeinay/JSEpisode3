@@ -42,12 +42,12 @@ const hottestDays = function(temperatures, threshhold) {
 * logHottestDays(temperatures, threshhold)
 *
 * - Accepts an array of temperatures
-*   IN DEGREED FAHRENHEINT
+*   IN DEGREES FAHRENHEINT
 * - Accepts a threshhold temperature
-*   IN DEGREED FAHRENHEINT
+*   IN DEGREES FAHRENHEINT
 * - Logs temperatures that exceed the
 *   threshhold to the console
-*   IN DEGREES Celsius
+*   IN DEGREES CELSIUS
 *
 * hint: you can combine
 *       all previous functions
