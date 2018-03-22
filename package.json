@@ -9,7 +9,7 @@
     "sinon": "^4.4.6"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose --serial"
   },
   "ava": {
     "files": [
