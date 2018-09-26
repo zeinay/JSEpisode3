@@ -1,4 +1,4 @@
-# JavaScript Episode 1
+# JavaScript Episode 3
 
 ## Instructions
 
