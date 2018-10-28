@@ -1,24 +1,14 @@
 {
-  "name": "JSEpisode1",
+  "name": "JSEpisode2",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@std/esm": "^0.25.2",
-    "ava": "^0.25.0",
-    "sinon": "^4.4.6"
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.1"
   },
   "scripts": {
-    "test": "ava --verbose --serial"
-  },
-  "ava": {
-    "files": [
-      "*.spec.js"
-    ],
-    "require": [
-      "@std/esm"
-    ]
-  },
-  "@std/esm": "js",
-  "dependencies": {}
+    "test": "jest --verbose"
+  }
 }
